@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: c7acdd1fb89d74288b0961d7dda591c6
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: -5484901701203096391
+    second: Closet|book shelf|Take 001|BaseLayer
+  - first:
+      74: -3370077589054570261
+    second: Closet|broken door left|Take 001|BaseLayer
+  - first:
+      74: 754185706582355159
+    second: Closet|broken door right|Take 001|BaseLayer
+  - first:
+      74: -716049090395134538
+    second: Closet|closet003|Take 001|BaseLayer
+  - first:
+      74: 2069291678042222423
+    second: Closet|closet004|Take 001|BaseLayer
+  - first:
+      74: 5683834115747268203
+    second: Closet|closet01|Take 001|BaseLayer
+  - first:
+      74: -1114261791588448059
+    second: Closet|closet02|Take 001|BaseLayer
+  - first:
+      74: 570033281319786459
+    second: Closet|closet|Take 001|BaseLayer
+  - first:
+      74: -4932801585598587307
+    second: Closet|left door 02|Take 001|BaseLayer
+  - first:
+      74: -6271374289986889368
+    second: Closet|left door 03|Take 001|BaseLayer
+  - first:
+      74: -6286187414555986847
+    second: Closet|left door 04|Take 001|BaseLayer
+  - first:
+      74: 9149381892522405478
+    second: Closet|Left door01|Take 001|BaseLayer
+  - first:
+      74: 6220909614662622794
+    second: Closet|right door 01|Take 001|BaseLayer
+  - first:
+      74: 4062998118045659896
+    second: Closet|right door 02|Take 001|BaseLayer
+  - first:
+      74: 5912596088430413845
+    second: Closet|right door 03|Take 001|BaseLayer
+  - first:
+      74: -858959260890483410
+    second: Closet|right door 04|Take 001|BaseLayer
+  - first:
+      74: -839405942095672024
+    second: Closet|Small closet|Take 001|BaseLayer
+  - first:
+      74: 8147613340103329385
+    second: right door |book shelf|Take 001|BaseLayer
+  - first:
+      74: -3600130611035760552
+    second: right door |broken door left|Take 001|BaseLayer
+  - first:
+      74: -331703338859464362
+    second: right door |broken door right|Take 001|BaseLayer
+  - first:
+      74: 910325468643571186
+    second: right door |closet003|Take 001|BaseLayer
+  - first:
+      74: 2481826212485567955
+    second: right door |closet004|Take 001|BaseLayer
+  - first:
+      74: 6706740158005779826
+    second: right door |closet01|Take 001|BaseLayer
+  - first:
+      74: -4257764507415000289
+    second: right door |closet02|Take 001|BaseLayer
+  - first:
+      74: -3709772537156916079
+    second: right door |closet|Take 001|BaseLayer
+  - first:
+      74: 4977696422841563912
+    second: right door |left door 02|Take 001|BaseLayer
+  - first:
+      74: 7423397510196043747
+    second: right door |left door 03|Take 001|BaseLayer
+  - first:
+      74: 1764357496698154728
+    second: right door |left door 04|Take 001|BaseLayer
+  - first:
+      74: 7436835436105085819
+    second: right door |Left door01|Take 001|BaseLayer
+  - first:
+      74: 2535792463040364134
+    second: right door |right door 01|Take 001|BaseLayer
+  - first:
+      74: -7203185147160261122
+    second: right door |right door 02|Take 001|BaseLayer
+  - first:
+      74: 2451120371158232067
+    second: right door |right door 03|Take 001|BaseLayer
+  - first:
+      74: -1331335804421635608
+    second: right door |right door 04|Take 001|BaseLayer
+  - first:
+      74: -3425780988536376942
+    second: right door |Small closet|Take 001|BaseLayer
+  - first:
+      74: -9025216934102886115
+    second: Left door |book shelf|Take 001|BaseLayer
+  - first:
+      74: -4187129792732028149
+    second: Left door |broken door left|Take 001|BaseLayer
+  - first:
+      74: 7310754026961394444
+    second: Left door |broken door right|Take 001|BaseLayer
+  - first:
+      74: 1008908257849332057
+    second: Left door |closet003|Take 001|BaseLayer
+  - first:
+      74: -2304245559079369466
+    second: Left door |closet004|Take 001|BaseLayer
+  - first:
+      74: 8470169024561988322
+    second: Left door |closet01|Take 001|BaseLayer
+  - first:
+      74: -5997700302051911930
+    second: Left door |closet02|Take 001|BaseLayer
+  - first:
+      74: 3147904289555330760
+    second: Left door |closet|Take 001|BaseLayer
+  - first:
+      74: 4520700321401798933
+    second: Left door |left door 02|Take 001|BaseLayer
+  - first:
+      74: 9051109542603018081
+    second: Left door |left door 03|Take 001|BaseLayer
+  - first:
+      74: -5812042925095852832
+    second: Left door |left door 04|Take 001|BaseLayer
+  - first:
+      74: -204263256932831354
+    second: Left door |Left door01|Take 001|BaseLayer
+  - first:
+      74: -1460726136819743376
+    second: Left door |right door 01|Take 001|BaseLayer
+  - first:
+      74: -4431029777253105758
+    second: Left door |right door 02|Take 001|BaseLayer
+  - first:
+      74: 6213942166090078833
+    second: Left door |right door 03|Take 001|BaseLayer
+  - first:
+      74: 9196869664492965484
+    second: Left door |right door 04|Take 001|BaseLayer
+  - first:
+      74: -1127694722663506018
+    second: Left door |Small closet|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

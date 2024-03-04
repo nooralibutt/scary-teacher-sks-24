@@ -1,0 +1,69 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Ll]ibrary/*
+![Ll]ibrary/AddressablesConfig.dat
+![Ll]ibrary/com.unity.addressables/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+UnityGenerated/
+Assets/AssetStoreTools*
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+Assets/AssetBundles/
+AssetBundles/
+
+TPS_cache/
+
+UserSettings/
+Logs/
+
+.vs/
+/*.apk
+/*.aab
+/*.zip
+XcodeProject/
+/remote_config_data
+/Assets/Plugins/Android/Firebase/res/values/crashlytics_build_id.xml
+/Assets/Plugins/Android/Firebase/res/values/crashlytics_build_id.xml.meta
+
+/Screenshots
+/Assets/Plugins/Android/Firebase/res/values/crashlytics_unity_version.xml
+/ProjectSettings/AndroidLogcatSettings.asset
+/Assets/Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml
+/Assets/Plugins/Android/FirebaseCrashlytics.androidlib/res/values/crashlytics_build_id.xml.meta
+/.vsconfig
+/UserSettings/QuickSearch.settings
+/UserSettings/AndroidLogcatSettings.asset
+/UserSettings/EditorUserSettings.asset
+
+/Logs/Packages-Update.log
+
+ServerData/
+
+Assets/FR2_Cache.asset

@@ -1,0 +1,13 @@
+Converting script [1 / 1]	[/Scripts/Controllers/SchoolBoyController.cs]
+	Fragments : 4
+		[ 0] : Line:   60	InputMethod   GetAxis             	("Horizontal")
+		[ 1] : Line:   61	InputMethod   GetAxis             	("Vertical")
+		[ 2] : Line:   71	InputMethod   GetAxis             	("Horizontal")
+		[ 3] : Line:   72	InputMethod   GetAxis             	("Vertical")
+
+
+1 scripts modified!
+Overwriting actual scripts...
+	[0 / 1] from  [/Users/sks_abbas/Desktop/ScaryTeacher/CF2-Data/Script-Backups/2023-05-10-20-13/Assets-After//Scripts/Controllers/SchoolBoyController.cs] to [/Users/sks_abbas/Desktop/ScaryTeacher/Assets//Scripts/Controllers/SchoolBoyController.cs]
+
+Overwriting COMPLETED!

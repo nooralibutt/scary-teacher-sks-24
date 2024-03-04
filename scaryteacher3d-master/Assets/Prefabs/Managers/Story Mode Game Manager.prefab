@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1291420161302265142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291420161302265140}
+  - component: {fileID: 1291420161302265141}
+  m_Layer: 0
+  m_Name: Story Mode Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1291420161302265140
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291420161302265142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1291420161302265141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291420161302265142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894630954d0164b0fb46be5498b87a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLevelBeingPlayed: 0
+  StoryModeLevels:
+  - {fileID: 1563447061003876335, guid: e8dd8f419c85f40d0804810fdfa12659, type: 3}
+  - {fileID: 9090337425341902765, guid: aedd2d2addda8473080dc9349f7add54, type: 3}
+  - {fileID: 7993865977617392252, guid: 5595ea7e1999641acb6bd92ed5840f4a, type: 3}
+  - {fileID: 2952802453396616158, guid: 2d3022b9d03ec4c6baf5aa7ed8642f09, type: 3}
+  - {fileID: 4951585403809595834, guid: 5ae379e2286e24c42acaf747e2dc1f8b, type: 3}
+  - {fileID: 8454507604596456774, guid: 3d613236f292847fdba2574f266362a4, type: 3}
+  - {fileID: 222616852726807427, guid: 10d9e278094764a4a87099424bf0216f, type: 3}
+  - {fileID: 2015508217358483938, guid: e03473e22198f4d6b8bf8d6d425eb823, type: 3}
+  - {fileID: 8205244395177276109, guid: c6ce58b733fcc485088b66e0f167608c, type: 3}
+  - {fileID: 4203673414827087502, guid: 829ac34b1f6c34629a1edb8348caaaf7, type: 3}
+  - {fileID: 1781926860899663815, guid: 0b51a54e8531d4aa79c6932083dc5f35, type: 3}
+  LevelCompletionPanel: {fileID: 3289892629304820329, guid: 7fa9c8ffc826b4bc984391d8aad1972a, type: 3}
+  LevelFailedPanel: {fileID: 2242365261444273732, guid: 76ceb6408ad86472ea18bb872306b35a, type: 3}
+  LevelObjectivePanel: {fileID: 2950586972437209602, guid: 4bb0eae53b42441228c16fa883dd53c4, type: 3}
+  currentLevel: {fileID: 0}

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1794380982920332138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1794380982920332139}
+  - component: {fileID: 1794380982920332140}
+  m_Layer: 0
+  m_Name: Level Props Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1794380982920332139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794380982920332138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1794380982920332140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794380982920332138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e239a5e8a2b4c8d81e7019757f2e63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelProps:
+  - propsIncludedInLevel: 0000000003000000
+    levelNumber: 0
+  - propsIncludedInLevel: 0200000001000000
+    levelNumber: 1
+  - propsIncludedInLevel: 04000000
+    levelNumber: 2
+  - propsIncludedInLevel: 050000000600000012000000
+    levelNumber: 3
+  - propsIncludedInLevel: 070000000800000009000000
+    levelNumber: 4
+  - propsIncludedInLevel: 0a0000000b00000009000000
+    levelNumber: 5
+  - propsIncludedInLevel: 0c0000000d000000
+    levelNumber: 6
+  - propsIncludedInLevel: 0e0000000f00000000000000
+    levelNumber: 7
+  - propsIncludedInLevel: 1000000011000000
+    levelNumber: 8
+  - propsIncludedInLevel: 130000001400000015000000
+    levelNumber: 9
+  - propsIncludedInLevel: 16000000
+    levelNumber: 10
+  PropsDependencies:
+  - collectedProp: 3
+    propsRequiredToEnableProp: 00000000
+    levelNumber: 0
+  - collectedProp: 2
+    propsRequiredToEnableProp: 01000000
+    levelNumber: 1
+  - collectedProp: 15
+    propsRequiredToEnableProp: 00000000
+    levelNumber: 7
+  levelWiseObjective:
+  - 'Go to the teacher''s house and find the key from the beach table. Now Open 
+    the door. '
+  - The teacher is coming to get the electricity bill and back to the room. Catch
+    the match box from the kitchen and find the bill and burn it.
+  - 'The teacher''s baby is sleeping in his room , punch the baby three times to
+    wake him up. '
+  - Go and find the purse of the teacher hidden somewhere.
+  - Find the crackers from the child room and catch the match box from the kitchen
+    and reach the destination.
+  - Stairs up and reach the teacher's study room, find the test paper and move back
+    to the destination courtyard. Now catch the lighter from kitchen and burn the
+    paper
+  - 'Find the oil in the teacher ''s dressing room and spread it on the stairs. '
+  - 'Find the door key in the baby room and open the door of the teacher''s bedroom,
+    pick up the mobile and throw it on the floor and break it. '
+  - Find the nail from the storeroom and puncture the tyre of the teacher's car
+  - 'Find the pipe from the backyard and drop it in the living room. Now move back
+    to backyard and turn on the water tap. '
+  - The teacher is sitting in lounge.Go to the teacher and apologise to her for your
+    crazy mischief.

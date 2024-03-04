@@ -1,0 +1,12 @@
+Converting script [1 / 1]	[/Scripts/MouseLook.cs]
+	Fragments : 3
+		[ 0] : Line:   13	Other mod.	[Cursor.lockState]
+		[ 1] : Line:   17	InputMethod   GetAxis             	("Mouse X")
+		[ 2] : Line:   18	InputMethod   GetAxis             	("Mouse Y")
+
+
+1 scripts modified!
+Overwriting actual scripts...
+	[0 / 1] from  [/Users/sks_abbas/Desktop/ScaryTeacher/CF2-Data/Script-Backups/2023-05-10-20-21/Assets-After//Scripts/MouseLook.cs] to [/Users/sks_abbas/Desktop/ScaryTeacher/Assets//Scripts/MouseLook.cs]
+
+Overwriting COMPLETED!
