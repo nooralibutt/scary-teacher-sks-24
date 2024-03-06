@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using SKS.Ads;
+//using SKS.Ads;
 
 public class UIManager : MonoBehaviour
 {

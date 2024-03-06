@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using SKS.Ads;
+//using SKS.Ads;
 
 public class SceneTransitionManager : MonoBehaviour
 {
@@ -57,25 +57,25 @@ public class SceneTransitionManager : MonoBehaviour
         _progressBar.fillAmount = 0f;
         _loaderCanvas.SetActive(true);
         if (showBigBanner)
-            AdsManager.ShowBanner(true);
-        bool interstitialShown = false;
+            //AdsManager.ShowBanner(true);
+        //bool interstitialShown = false;
         do
         {
             await System.Threading.Tasks.Task.Delay(delay);
             target += 1 / seconds;
-            if (target > 0.7)
-                if (!interstitialShown)
-                {
-                    if (showInterstitial)
-                    {
-                        AdsManager.ShowInterstitial();
-                        interstitialShown = true;
-                    }
-                }
+            //if (target > 0.7)
+                //if (!interstitialShown)
+                //{
+                //    if (showInterstitial)
+                //    {
+                //        AdsManager.ShowInterstitial();
+                //        interstitialShown = true;
+                //    }
+                //}
 
         } while (target < 0.95f);
 
-        AdsManager.HideBanner(true);
+        //AdsManager.HideBanner(true);
         _loaderCanvas.SetActive(false);
         completionCallback?.Invoke();
     }

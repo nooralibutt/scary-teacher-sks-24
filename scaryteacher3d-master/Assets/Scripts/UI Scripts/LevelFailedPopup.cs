@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using SKS.Ads;
+//using SKS.Ads;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -36,6 +36,6 @@ public class LevelFailedPopup : UIPopup
 
     public void ShowAd()
     {
-        AdsManager.ShowInterstitial();
+        //AdsManager.ShowInterstitial();
     }
 }

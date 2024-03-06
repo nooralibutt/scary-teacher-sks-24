@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using SKS.Ads;
+//using SKS.Ads;
 
 public class SettingsPanel : MonoBehaviour
 {
@@ -11,14 +11,14 @@ public class SettingsPanel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AdsManager.ShowBanner(true);
+        //AdsManager.ShowBanner(true);
         soundToggle.onValueChanged.AddListener(ToggleSound);
         musicToggle.onValueChanged.AddListener(ToggleMusic);
     }
 
     public void ExitButtonClicked()
     {
-        AdsManager.HideBanner(true);
+        //AdsManager.HideBanner(true);
         gameObject.SetActive(false);
     }
 

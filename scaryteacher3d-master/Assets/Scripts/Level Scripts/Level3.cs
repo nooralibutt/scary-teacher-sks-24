@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using SKS.Ads;
+//using SKS.Ads;
 using UnityEngine;
 
 public class Level3 : BasicLevelStructure

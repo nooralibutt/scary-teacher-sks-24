@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using UnityEngine.Timeline;
-using SKS.Ads;
+//using SKS.Ads;
 
 public class BasicLevelStructure : MonoBehaviour
 {
@@ -139,7 +139,7 @@ public class BasicLevelStructure : MonoBehaviour
 
     public void EndLevel()
     {
-        AdsManager.ShowInterstitial();
+        //AdsManager.ShowInterstitial();
         StoryModeLevelManager.Instance.onLevelEnded?.Invoke(true);
     }
 
@@ -184,7 +184,7 @@ public class BasicLevelStructure : MonoBehaviour
 
     public void OnPauseButtonPressed()
     {
-        AdsManager.ShowInterstitial();
+        //AdsManager.ShowInterstitial();
         UIManager.Instance.DisplayGamePausePanel();
     }
 

@@ -18,4 +18,6 @@ public struct CameraSetupData
     public float duration;
     [Space]
     public UnityEvent onPositionCompleteEvent;
+
+
 }

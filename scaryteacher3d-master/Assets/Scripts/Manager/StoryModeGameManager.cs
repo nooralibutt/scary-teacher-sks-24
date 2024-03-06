@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using SKS.Ads;
+//using SKS.Ads;
 
 public class StoryModeGameManager : MonoBehaviour
 {

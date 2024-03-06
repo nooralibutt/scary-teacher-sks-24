@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-using SKS.Ads;
+//using SKS.Ads;
 
 public class MainMenuPanel : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class MainMenuPanel : MonoBehaviour
 
     private void Start()
     {
-        AdsManager.ShowBanner(false);
+        //AdsManager.ShowBanner(false);
         //SceneTransitionManager.Instance.ShowLoadingScreen(100, ()=>
         //{
         //    GetComponent<Image>().color = Color.black;
