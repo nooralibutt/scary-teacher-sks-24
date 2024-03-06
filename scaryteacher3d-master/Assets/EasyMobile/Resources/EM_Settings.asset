@@ -90,7 +90,7 @@ MonoBehaviour:
         keys: []
         values: []
     mAppLovin:
-      mEnable: 0
+      mEnable: 1
       mAgeRestrictMode: 0
       mSDKKey: 
       mDefaultBannerAdId:
