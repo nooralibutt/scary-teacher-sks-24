@@ -158,7 +158,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.sks.evil.school.teacher.horror.games
+    Android: com.DefaultCompany.ScaryEvilTeacherSimulator
     iPhone: com.sks.evil.scary.school.teacher.horror.games
   buildNumber:
     Standalone: 0
@@ -834,9 +834,23 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: CF_FORCE_MOBILE_MODE
-    Windows Store Apps: CF_FORCE_MOBILE_MODE
-    iPhone: CF_FORCE_MOBILE_MODE
+    Android: CF_FORCE_MOBILE_MODE;EASY_MOBILE;EASY_MOBILE_PRO
+    EmbeddedLinux: EASY_MOBILE;EASY_MOBILE_PRO
+    GameCoreScarlett: EASY_MOBILE;EASY_MOBILE_PRO
+    GameCoreXboxOne: EASY_MOBILE;EASY_MOBILE_PRO
+    LinuxHeadlessSimulation: EASY_MOBILE;EASY_MOBILE_PRO
+    Nintendo Switch: EASY_MOBILE;EASY_MOBILE_PRO
+    PS4: EASY_MOBILE;EASY_MOBILE_PRO
+    PS5: EASY_MOBILE;EASY_MOBILE_PRO
+    QNX: EASY_MOBILE;EASY_MOBILE_PRO
+    Stadia: EASY_MOBILE;EASY_MOBILE_PRO
+    Standalone: EASY_MOBILE;EASY_MOBILE_PRO
+    VisionOS: EASY_MOBILE;EASY_MOBILE_PRO
+    WebGL: EASY_MOBILE;EASY_MOBILE_PRO
+    Windows Store Apps: CF_FORCE_MOBILE_MODE;EASY_MOBILE;EASY_MOBILE_PRO
+    XboxOne: EASY_MOBILE;EASY_MOBILE_PRO
+    iPhone: CF_FORCE_MOBILE_MODE;EASY_MOBILE;EASY_MOBILE_PRO
+    tvOS: EASY_MOBILE;EASY_MOBILE_PRO
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
