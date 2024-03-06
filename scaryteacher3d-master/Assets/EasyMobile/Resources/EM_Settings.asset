@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EM_Settings
   m_EditorClassIdentifier: 
   mAdvertisingSettings:
-    mAutoInit: 1
+    mAutoInit: 0
     mAutoLoadAdsMode: 2
     mAdCheckingInterval: 10
     mAdLoadingInterval: 20
@@ -54,7 +54,7 @@ MonoBehaviour:
         keys: []
         values: []
     mAdMob:
-      mEnable: 0
+      mEnable: 1
       mTargetingSettings:
         mTagForChildDirectedTreatment: 0
         mExtraOptions:
@@ -66,17 +66,17 @@ MonoBehaviour:
         mIosId: 
         mAndroidId: 
       mDefaultBannerAdId:
-        mIosId: 
-        mAndroidId: 
+        mIosId: ca-app-pub-3940256099942544/2435281174
+        mAndroidId: ca-app-pub-3940256099942544/9214589741
       mDefaultInterstitialAdId:
-        mIosId: 
-        mAndroidId: 
+        mIosId: ca-app-pub-3940256099942544/4411468910
+        mAndroidId: ca-app-pub-3940256099942544/1033173712
       mDefaultRewardedAdId:
         mIosId: 
         mAndroidId: 
       mDefaultRewardedInterstitialAdId:
-        mIosId: 
-        mAndroidId: 
+        mIosId: ca-app-pub-3940256099942544/6978759866
+        mAndroidId: ca-app-pub-3940256099942544/5354046379
       mCustomBannerAdIds:
         keys: []
         values: []
@@ -337,11 +337,38 @@ MonoBehaviour:
       mValue: '[Your usage description]'
     - mKey: NSPhotoLibraryAddUsageDescription
       mValue: '[Your usage description]'
+  mNativeApisSettings:
+    mIsMediaEnabled: 0
+    mMediaSettings:
+      mAndroidPermissions:
+      - mElementName: uses-permission
+        mValue: android.permission.WRITE_EXTERNAL_STORAGE
+      - mElementName: uses-feature
+        mValue: android.hardware.camera
+      mIOSInfoPlistKeys:
+      - mKey: NSPhotoLibraryUsageDescription
+        mValue: '[Your usage description]'
+      - mKey: NSPhotoLibraryAddUsageDescription
+        mValue: '[Your usage description]'
+      - mKey: NSCameraUsageDescription
+        mValue: '[Your usage description]'
+      - mKey: NSMicrophoneUsageDescription
+        mValue: '[Your usage description]'
+    mIsContactsEnabled: 0
+    mContactsSettings:
+      mAndroidPermissions:
+      - mElementName: uses-permission
+        mValue: android.permission.WRITE_CONTACTS
+      - mElementName: uses-permission
+        mValue: android.permission.READ_CONTACTS
+      mIOSInfoPlistKeys:
+      - mKey: NSContactsUsageDescription
+        mValue: '[Your usage description]'
   mRuntimeAutoInitialization: 1
-  mIsAdModuleEnable: 0
+  mIsAdModuleEnable: 1
   mIsIAPModuleEnable: 0
   mIsGameServiceModuleEnable: 0
   mIsNotificationModuleEnable: 0
   mIsSharingModuleEnable: 0
   mActiveModuleIndex: 0
-  mIsSelectingModule: 1
+  mIsSelectingModule: 0
