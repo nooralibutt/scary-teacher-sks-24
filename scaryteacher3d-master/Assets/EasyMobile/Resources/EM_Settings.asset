@@ -92,12 +92,12 @@ MonoBehaviour:
     mAppLovin:
       mEnable: 1
       mAgeRestrictMode: 0
-      mSDKKey: 
+      mSDKKey: OeKTS4Zl758OIlAs3KQ6-3WE1IkdOo3nQNJtRubTzlyFU76TRWeQZAeaSMCr9GcZdxR4p2cnoZ1Gg7p7eSXCdA
       mDefaultBannerAdId:
         mIosId: 
         mAndroidId: 
       mDefaultInterstitialAdId:
-        mIosId: 
+        mIosId: 6a0a0faacb31af65
         mAndroidId: 
       mDefaultRewardedAdId:
         mIosId: 
