@@ -184,8 +184,8 @@ MonoBehaviour:
     mUnityAds:
       mEnable: 1
       mAppId:
-        mIosId: 
-        mAndroidId: 
+        mIosId: 4527484
+        mAndroidId: 4527485
       mDefaultBannerAdId:
         mIosId: Banner_iOS
         mAndroidId: Banner_Android
@@ -300,16 +300,23 @@ MonoBehaviour:
       mContent: 
       mTitle: Privacy Consent
       mToggles: []
-      mActionButtons: []
+      mActionButtons:
+      - id: 
+        title: 
+        interactable: 0
+        titleColor: {r: 0, g: 0, b: 0, a: 0}
+        backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+        uninteractableTitleColor: {r: 0, g: 0, b: 0, a: 0}
+        uninteractableBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
     mConsentDialogComposerSettings:
       mToggleSelectedIndex: 0
       mButtonSelectedIndex: 0
       mEnableCopyPasteMode: 0
-    mIsAppTrackingEnabled: 0
+    mIsAppTrackingEnabled: 1
     mAppTrackingSettings:
       mIOSInfoPlistKeys:
       - mKey: NSUserTrackingUsageDescription
-        mValue: '[Your usage description]'
+        mValue: We will track your activity to provide you persoonalized user experiance.
   mRatingRequestSettings:
     mDefaultRatingDialogContent:
       mTitle: Rate $PRODUCT_NAME

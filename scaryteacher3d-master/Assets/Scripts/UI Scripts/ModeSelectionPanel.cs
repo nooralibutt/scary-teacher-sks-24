@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ModeSelectionPanel : MonoBehaviour
 {
-    [SerializeField] private Sprite selectedState;
+    [SerializeField] public Sprite selectedState;
 
     [SerializeField] private List<Image> modeButtons;
 
@@ -37,6 +37,7 @@ public class ModeSelectionPanel : MonoBehaviour
         LeanTween.scale(nextButton.gameObject, Vector3.one, 0.8f).setEaseOutBack();
         nextButton.gameObject.SetActive(true);
         modeButtons[index].sprite = selectedState;
+        modeButtons[index].color = new Color(1f, 1f, 1f, .5f);
         selectedMode = GameConstants.InGameConstants.GameModes.StoryMode;
     }
 
